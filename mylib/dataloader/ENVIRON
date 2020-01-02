@@ -1,0 +1,7 @@
+{
+  "DATASET": "",
+  "TRAIN_DATASET": "data/train_and_valid",
+  "TEST_DATASET": "data/test",
+  "VAL_DATASET": "data/train_and_valid"
+
+}

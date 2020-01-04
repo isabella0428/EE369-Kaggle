@@ -38,7 +38,6 @@ class TestDataset(Sequence):
         '''Get next item'''
         name = self.info.loc[self.index[item], 'name']
         with np.load(os.path.join(self.path, '%s.npz' % name)) as npz:
-            print(name)
             voxel = self.transform(npz['voxel'])
         return voxel
 

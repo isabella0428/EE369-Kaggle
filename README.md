@@ -57,9 +57,9 @@ Change the setting in `./mylib/dataloader/ENVIRON`
 }
 ```
 
-2. Model weight path : `./weight.h5` 
+2. Pretrained Model weight path : `./weight.h5` 
 
-3. Result path: `./submission.csv` 
+3. Generated Result path: `./submission.csv` 
 
 
 
